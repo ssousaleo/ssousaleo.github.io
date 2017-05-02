@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="How do Software Developers Identify Design Problems? A Qualitative Study">
+    <meta name="author" content="ICPCSUBMISSION">
+
+    <title>ICPC - SUBMISSION: How do Software Developers Identify Design Problems? A Quali Study</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="grid.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="design.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="bower_components/highlightjs/styles/xcode.css">
+    <script src="bower_components/highlightjs/highlight.pack.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+
+    <style type="text/css">
+        pre {
+            border: none;
+            background: #ffffff;
+            padding: 0px;
+        }
+        
+        .col-md-6 {
+            background: #ffffff;
+            border: none;
+            padding-bottom: 0px;
+        }
+        
+        body {
+            padding-top: 70px;
+            position: relative;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('body').scrollspy({
+                target: '#mainNavBar'
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <nav id="mainNavBar" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+                <ul class="nav navbar-nav">
+                    <li><a href="#abstract">Abstract</a></li>
+                    <li><a href="#scenarios">Scenarios</a></li>
+                    <li><a href="#dp">Design Problems and Smells</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#references">References</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <div class="page-header" id="title">
+            <h1>How do Software Developers Identify Design Problems?<br/>
+            <small>A Qualitative Study</small></h1>
+        </div>
+
+        This web page presents the supplementary material of the paper <i>How do Software Developers Identify Design Problems? A Qualitative Study</i>. <br>
+        Following sections present the complementary information regarding the paper:
+
+        <h3 class="page-header" id="abstract">Abstract</h3>
+
+        <p class="text-justify">
+            Software systems have been discontinued or restructure due to the presence of design problems. However, identifying design problems is a challenging task. For instance, developers have to locate and analyze several elements to identify a single design problem. In order to help the developers with this task, we investigate how they perform it nowadays. We conducted a study in which we observed developers identifying design problems in systems that they have knowledge of the implementation and in systems they did not have knowledge. Our results indicate that developers face similar issues in both scenarios. They also combine different strategies to identify design problems. One of the strategies regards of the use of code smells. When they used the code smells, they identified design problems that the developers that have knowledge of the systems could not identify. Our results are relevant because they shed lights on the way the developers identify design problems. Thus, other studies can focus on improving the identification based on our findings.
+            </p>
+
+    </div>
+    <!-- /container -->
+
+    <div class="container">
+
+        <h3 class="page-header" id="scenarios">Studied Scenarios and Participants</h3>
+        We conducted a qualitative study to observe how developers identify design problems in the source code. In order to conduct the study, we observed developers in two scenarios:
+        
+        
+        <h4><u>Scenario 1: Developers that are familiar with the analyzed systems</u></h4>
+        
+        <p class="text-justify"> 
+            The first scenario comprises developers allocated to identify design problems in systems with which they are familiar, i.e., systems that they implemented. In order to select developers
+            for this scenario, we searched for software companies that could provide us with: (i) developers, and (ii) systems where identification of design problems was currentlyseen as critical.
+            We selected two software companies, in which provided us five software systems. Table I summarizes the characterization of the software companies.</p>
+
+        <p>
+        <table class="tg">
+            <caption>
+                Table I. Characterization of the Software Companies
+            </caption>
+            <tr>
+                <th class="tg-be9c">Characteristic</th>
+                <th class="tg-xpce">Company 1</th>
+                <th class="tg-xpce">Company 2</th>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Company Type</td>
+                <td class="tg-uqo3">Private Company</td>
+                <td class="tg-uqo3">Government Company</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Number of Employees</td>
+                <td class="tg-uqo3">150</td>
+                <td class="tg-uqo3">80</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Number of developers in a team</td>
+                <td class="tg-uqo3">3 - 7</td>
+                <td class="tg-uqo3">3 - 4</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Domain</td>
+                <td class="tg-uqo3">Industrial Automation</td>
+                <td class="tg-uqo3">Government Administration</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Development Process</td>
+                <td class="tg-uqo3">Prescriptive and Agile</td>
+                <td class="tg-uqo3">Prescriptive</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Program Languange</td>
+                <td class="tg-uqo3">Java, Android, iOS</td>
+                <td class="tg-uqo3">Java</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Selected Sofware Systems</td>
+                <td class="tg-uqo3">S1, S2, S3</td>
+                <td class="tg-uqo3">S4, S5</td>
+            </tr>
+        </table>
+
+        <br>
+        <p class="text-justify">
+            The two selected companies provided us the following five systems:
+        </p>
+
+        <style type="text/css">
+        .tg  {border-collapse:collapse;border-spacing:0;}
+        .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+        .tg .tg-kqkn{font-weight:bold;background-color:#67fd9a;text-align:center}
+        .tg .tg-j4kc{background-color:#efefef;text-align:center}
+        .tg .tg-bsv2{background-color:#efefef}
+        </style>
+        <table class="tg" style="undefined;table-layout: fixed; width: 648px">
+            <caption>
+                Table II. Description of the Software Systems
+            </caption>
+            <colgroup>
+            <col style="width: 142px">
+            <col style="width: 506px">
+            </colgroup>
+            <tr>
+                <th class="tg-kqkn" colspan="2">Company 1</th>
+            </tr>
+            <tr>
+                <td class="tg-j4kc">S1</td>
+                <td class="tg-bsv2">It supports the management of registry offices for audit and control from the Justice Court of the country to which the company belongs.</td>
+            </tr>
+            <tr>
+                <td class="tg-j4kc">S2</td>
+                <td class="tg-bsv2">It is a computational solution for maintaining information on the patients' health status and care received by them during their life (health history). It uses electronic medical records to integrate the patients' clinical and administrative information.</td>
+            </tr>
+            <tr>
+                <td class="tg-j4kc">S3</td>
+                <td class="tg-bsv2">It is a system developed to trace products from a production line. This system allows tracking products from its original location to retail locations where consumers purchase them.</td>
+            </tr>
+            <tr>
+                <td class="tg-kqkn" colspan="2">Company 2</td>
+            </tr>
+            <tr>
+                <td class="tg-j4kc">S4</td>
+                <td class="tg-bsv2">It is responsible for controlling the entrance of products from the state that the company belongs. It also processes tax revenues.</td>
+            </tr>
+            <tr>
+                <td class="tg-j4kc">S5</td>
+                <td class="tg-bsv2">It is a system developed for standardizing budget in the same state that the company belongs. Both systems are considered critical by the state's government since they handle with with the state budget control.</td>
+            </tr>
+        </table>
+
+
+        <p>
+        <h4><u>Scenario 2: Developers that are unfamiliar with the analyzed systems</u></h4>
+
+        <p class="text-justify">
+            The second scenario comprises developers assigned to identify design problems in systems with which they are unfamiliar, i.e., systems that they did not implement. 
+            In order to select developers for this scenario, we recruited a set of developers, and we asked them to answer a questionnaire. The goal was to determine which of 
+            them were eligible for the study. The questionnaire covers information to characterize the developers about their education level and knowledge of Java programming 
+            and code smells. In order to select a developer for the study, he would need to meet some requirements.Thus, we analyzed their answers based on the following requirements:
+
+            <ol>
+
+                <li>R1. Four years or more of experience with software development and maintenance. We have chosen four years because this is the average time used by companies such
+                    as Yahoo <a href="#yahoo">(Yahoo, 2016)</a> and Twitter <a href="#twitter">(Twitter, 2016)</a> to classify a developer as experienced.</li>
+
+                <li>R2. No previous knowledge about S6 and S7.</li>
+
+                <li>R3. At least basic knowledge about code smells.</li>
+
+                <li>R4. At least intermediary knowledge on Java programming. </li>
+
+            </ol>
+
+        </p>
+
+        <p class="text-justify">
+            We included in the questionnaire a description of our definition of knowledge level, thereby allowing developers to have a similar interpretation of the possible answers.
+            Table III presents the definition of knowledge level that developers received.
+        </p>
+
+        <table class="tg">
+            <caption>
+            Table III. Knowledge classification
+            </caption>
+                <tr> 
+                    <th class="tg-be9c">Classification</th>
+                    <th class="tg-be9c">Description</th>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">None</td>
+                    <td class="tg-yzt1">I have never heard about it</td>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">Minimum</td>
+                    <td class="tg-yzt1">I have heard about it, but I do not use it</td>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">Basic</td>
+                    <td class="tg-yzt1">I have a general understanding, but I almost never use it</td>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">Intermediary</td>
+                    <td class="tg-yzt1">I have a good understanding, and I use basic features sometimes</td>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">Advanced</td>
+                    <td class="tg-yzt1">I have a deep understanding, and I often use advanced features</td>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">Expert</td>
+                    <td class="tg-yzt1">I am a specialist in this topic, and I use many features almost every day</td>
+                </tr>
+        </table>
+
+        <br>
+        <p class="text-justify">
+            We selected two systems from the <a href="http://oodt.apache.org/" target="_blank">Apache OODT</a> project (Push Pull and Workflow Manager), and we asked developers of Group 2 to identify design problems in these systems. We selected these systems because they have a well-defined set of design problems identified by developers who actually implemented the systems. We gave them a document containing: (i) a brief description of Push Pull (S6) and Workflow Manager (S7), and (ii) a very high level description of their design blueprint. We gave them these documents because when they have to maintain unfamiliar systems, they need to have some minimal information about the systems to be maintained. We used the same document provided in the OODT project. Document with the description of both systems can be downloaded at <a href="download/oodtdoc.zip">here</a>. A full description of the Push Pull and Working Manager as well as other OODT systems can be downloaded at <a href="http://oodt.apache.org/site_docs/oodt/index.html" target="_blank">OODT website</a>.</br>
+        </p>
+    </div>
+
+    
+
+    <div class="container">
+
+        <h3 class="page-header" id="dp">Design Problems and Code Smells</h3>
+
+        <p class="text-justify>">
+            We conducted a qualitative study to observe how developers identify design problems in the source code. We provided developers with an initial list of code smells affecting the systems. The developers had the freedom to use or not the initial list of code smells. Thus, we could investigate if developers rely on code smells as a dominant strategy to identify design problems and to what extent they can identify design problem using code smells. Following we present the design problems and the code smells used in our study.
+        </p>
+
+        <h4><u>Design Problems</u></h4>
+
+        <p class="text-justify">
+            A design problem is a part of the software design (a design fragment) that negatively impacts one or more quality attributes, such as comprehensibility, maintainability and performance <a href="#bar">(Bar, 1998)</a>;<a href="#ciupke">Ciupke, 1999</a>;<a href="suryanarayana">Suryanarayana 2014</a>;<a href="#trifu">Trifu, 2007)</a>. In order to support developers during the identification of design problems, we provide them a guide characterizing different types of design problems at the beginning of the task (Activity 2 - Problems identification). This guide contains a brief description of the design problems used in our study. We highlight that we let clear to developers that they were allowed to identify other types of design problems. Following we present the design problems used in the study, as well as the description used to create the guide.
+
+        </p>
+        <ul>
+            <li><strong>Ambiguous Interface:</strong> Interface of a design component that offers only a general, ambiguous entry-point that provides non-cohesive services, thereby complicating the clients' logic.</li>
+
+            <li><strong>Component Overload:</strong> Design components that fulfill too many responsibilities.</li>
+
+            <li><strong>Cyclic Dependency:</strong> Two or more design components that directly or indirectly depend on each other.</li>
+
+            <li><strong>Delegating Abstraction:</strong> An abstraction that exists only for passing messages from one abstraction to another.</li>
+
+            <li><strong>Fat Interface:</strong> Interface that is overloaded with many clients accessing it. That is, an interface with "too many clients".</li>
+
+            <li><strong>Scattered Concern:</strong> Multiple components that are responsible for realizing a crosscutting concern.</li>
+
+            <li><strong>Unused Abstraction:</strong> Design abstraction that is either unreachable or  never used in the system.</li>
+
+            <li><strong>Unwanted Dependency:</strong> Dependency that violates an intended design rule.</li>
+
+        </ul>
+
+        <h4><u>Code Smells</u></h4>
+
+        <p class="text-justify">
+            A code smell is a structure in the implementation of the program that possibly indicates a design problem <a href="#fowler">(Fowler, 1999)</a>. In this study, we have focus on 15 types of code smells. We present the definition of the code smells following:
+
+        </p>
+
+        <ul>
+            <li><strong>Blob Class:</strong> Long and complex class that centralizes the intelligence of the system.</li>
+
+            <li><strong>Class Data Should Be Private:</strong> A class exposing its fields, violating the principle of data hiding.</li>
+            
+            <li><strong>Complex Class:</strong> A class having at least one method having a high cyclomatic complexity.</li>
+
+            <li><strong>Data Class:</strong> A class has this code smell when it has only fields, getting and setting methods for the fields, and nothing else. The aim is to hold data and, consequently, be manipulated by other classes.</li>
+
+            <li><strong>Divergent Change:</strong> This code smell occurs when one class is commonly changed in different ways for different reasons.</li>
+
+            <li><strong>Feature Envy:</strong> Feature envy occurs in a class when the method of that class seems more interested in a class other than the one it actually belongs.</li>
+
+            <li><strong>God Class:</strong> This code smell occurs when the class centralizes more the one functionality, realizing more than one purpose.</li>
+
+            <li><strong>Lazy Class: A class having very small dimension, few methods and with low complexity.</strong> </li>
+
+            <li><strong>Long Method:</strong> This code smell occurs when a method has grown too large, containing too many lines of code.</li>
+
+            <li><strong>Long Parameter List:</strong> This code smell occurs in a method that has a long list of parameters, in which makes readability and code quality worse.</li>
+
+            <li><strong>Message Chain:</strong> A long chain of method invocations is performed to implement a class functionality.</li>
+            <li><strong>Refused Bequest:</strong> A subclass that uses only some of the methods and properties inherited from its parents.</li>
+
+            <li><strong>Shotgun Surgery:</strong> This code smell is the opposite of Divergent Change. It happens when every time a kind of change is made in the code, that change triggers many little changes in many different classes.</li>
+
+            <li><strong>Spaghetti Code:</strong> A class implementing complex methods interacting with them, with no parameters, using global variables.</li>
+
+            <li><strong>Speculative Generality:</strong> A class declared as abstract having very few children classes that use its methods.</li>
+
+        </ul>
+
+    </div>
+
+    <div class="container">
+
+        <h3 class="page-header" id="download">Download</h3>
+
+        <p class="text-justify">
+            Following we present the main artifacts used in the study. For privacy reasons, we do not provide examples of the videos recorded in the environment, neither the audio transcription
+        </p>
+
+        <table class="tg">
+            <caption>
+                Table IV. Link to donwload the artifacts used in the study
+            </caption>
+            <tr>
+                <th class="tg-be9c">Artifact</th>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/onlineform.pdf" target="_blank">Online Form (model)</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/Follow-up.pdf" target="_blank">Follow-up Questionnaire</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/PushPull-OODT.pdf" target="_blank">PushuPull description</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/Workflow-OODT.pdf" target="_blank">Workflow Manager description</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/guide.pdf" target="_blank">Guide with the Design Problems and Code Smells</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/paper.pdf" target="_blank">Submitted Paper</a></td>
+            </tr>
+            
+        </table>
+
+    </div>
+
+    <div class="container">
+        <h3 class="page-header" id="references">References</h3>
+
+		<p>
+		<ol>
+            <li id="trifu">A. Trifu and U. Reupke, <i>Towards automated restructuring of object oriented systems</i> in Proceedings of the 11th European Conference on Software Maintenance and Reengineering, 2007.</li>
+            <li id="bar">H. Bär and O. Ciupke, <i>Exploiting design heuristics for automatic problem detection</i> in Workshop Ion on Object-Oriented Technology, 1998.</li>
+            <li id="twitter">Twitter. <i>Working at Twitter"</i>. Available at <a href="https://about.twitter.com/careers" target="_blank">https://about.twitter.com/careers</a></li>
+            <li id="yahoo">Yahoo!. <i>Explore Career Opportunities"</i>. Available at <a href="https://careers.yahoo.com/us/buildyourcareer" target="_blank">https://careers.yahoo.com/us/buildyourcareer</a></li>
+            <li id="fowler">M. Fowler. <i>Refactoring: Improving the Design of Existing Code.</i> Addison-Wesley, Boston, MA, USA, 1999.</li>
+			<li id="suryanarayana">G. Suryanarayana, G. Samarthyam, and T. Sharma. <i>Refactoring for Software Design Smells: Managing Technical Debt</i>. Morgan Kaufmann, 2014.</li>
+		
+    </div>
+
+
+</body>
+
+</html>
