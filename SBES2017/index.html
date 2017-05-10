@@ -284,6 +284,107 @@
         <p class="text-justify">
             We selected two systems from the <a href="http://oodt.apache.org/" target="_blank">Apache OODT</a> project (Push Pull and Workflow Manager), and we asked subjects of Scenario 2 to identify design problems in these systems. We selected these systems because they have a well-defined set of design problems identified by developers who actually implemented the systems. We gave them a document containing: (i) a brief description of Push Pull (S6) and Workflow Manager (S7), and (ii) a very high level description of their design blueprint. We gave them these documents because when they have to maintain unfamiliar systems, they need to have some minimal information about the systems to be maintained. We used the same document provided in the OODT project. Document with the description of both systems can be downloaded at <a href="download/oodtdoc.zip">here</a>. A full description of the Push Pull and Working Manager as well as other OODT systems can be downloaded at <a href="http://oodt.apache.org/site_docs/oodt/index.html" target="_blank">OODT website</a>.</br>
         </p>
+
+        <p class="text-justify">
+            The subjects unfamiliar with the systems (Scenario 2) identified 31 design problems, in which 17 was validated as true positives. Table IV presents the design problems identified by the subjects of the Scenario 2. The number between parentheses in the fourth column indicates the number of instances of the design problem.
+        </p>
+        <style type="text/css">
+        .tg  {border-collapse:collapse;border-spacing:0;}
+        .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+        .tg .tg-kqkn{font-weight:bold;background-color:#67fd9a;text-align:center}
+        .tg .tg-j4kc{background-color:#efefef;text-align:center}
+        .tg .tg-bsv2{background-color:#efefef}
+        </style>
+        <table class="tg">
+            <caption>
+            Table IV. Knowledge classification
+            </caption>
+        <tr>
+            <th class="tg-kqkn">Subject</th>
+            <th class="tg-kqkn">Number of Design Problems</th>
+            <th class="tg-kqkn">Number of True Positives</th>
+            <th class="tg-kqkn">Design Problems</th>
+            <th class="tg-kqkn">True Positive Design Problems</th>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S6</td>
+            <td class="tg-j4kc">5</td>
+            <td class="tg-j4kc">1</td>
+            <td class="tg-bsv2">Fat Interface (1), Ambiguous Interface (1), Unwanted Dependency (2)</td>
+            <td class="tg-bsv2">Fat Interface</td>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S7</td>
+            <td class="tg-j4kc">4</td>
+            <td class="tg-j4kc">1</td>
+            <td class="tg-bsv2">Overused Interface (1), Ambiguous Interface (1),Misplaced Concern (1), Scattered Concern (1)</td>
+            <td class="tg-bsv2">Ambiguous Interface</td>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S8</td>
+            <td class="tg-j4kc">3</td>
+            <td class="tg-j4kc">3</td>
+            <td class="tg-bsv2">Incomplete Abstraction (1),Scattered Concern (1), Fat Interface (1)</td>
+            <td class="tg-bsv2">Incomplete Abstraction,Scattered Concern, Fat Interface</td>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S9</td>
+            <td class="tg-j4kc">2</td>
+            <td class="tg-j4kc">1</td>
+            <td class="tg-bsv2">Scattered Concern (1), Fat Interface (1)</td>
+            <td class="tg-bsv2">Fat Interface</td>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S10</td>
+            <td class="tg-j4kc">0</td>
+            <td class="tg-j4kc">0</td>
+            <td class="tg-j4kc">-</td>
+            <td class="tg-j4kc">-</td>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S11</td>
+            <td class="tg-j4kc">5</td>
+            <td class="tg-j4kc">3</td>
+            <td class="tg-bsv2">Fat Interface (1), Ambiguous Interface (1), Scattered Concern (2),Concern Overload (1)</td>
+            <td class="tg-bsv2">Ambiguous Interface, Fat Interface, Concern Overload</td>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S12</td>
+            <td class="tg-j4kc">4</td>
+            <td class="tg-j4kc">4</td>
+            <td class="tg-bsv2">Scattered Concern (1), Ambiguous Interface (1), Concern Overload (2)</td>
+            <td class="tg-bsv2">Scattered Concern, Ambiguous Interface, Concern Overload</td>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S13</td>
+            <td class="tg-j4kc">1</td>
+            <td class="tg-j4kc">1</td>
+            <td class="tg-bsv2">Incomplete Abstraction (1)</td>
+            <td class="tg-bsv2">Incomplete Abstraction</td>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S14</td>
+            <td class="tg-j4kc">2</td>
+            <td class="tg-j4kc">1</td>
+            <td class="tg-bsv2">Concern Overload (1), Scattered Concern (1)</td>
+            <td class="tg-bsv2">Scattered Concern</td>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S15</td>
+            <td class="tg-j4kc">0</td>
+            <td class="tg-j4kc">0</td>
+            <td class="tg-j4kc">-</td>
+            <td class="tg-j4kc">-</td>
+        </tr>
+        <tr>
+            <td class="tg-bsv2">S16</td>
+            <td class="tg-j4kc">2</td>
+            <td class="tg-j4kc">1</td>
+            <td class="tg-bsv2">Concern Overload (2)</td>
+            <td class="tg-bsv2">Concern Overload</td>
+        </tr>
+</table>
     </div>
 
     
@@ -299,7 +400,7 @@
         <h4><u>Design Problems</u></h4>
 
         <p class="text-justify">
-            A design problem is a part of the software design (a design fragment) that negatively impacts one or more quality attributes, such as comprehensibility, maintainability and performance <a href="#bar">(Bar, 1998)</a>;<a href="#ciupke">Ciupke, 1999</a>;<a href="suryanarayana">Suryanarayana 2014</a>;<a href="#trifu">Trifu, 2007)</a>. In order to support developers during the identification of design problems, we provided them a guide characterizing different types of design problems at the beginning of the task (Activity 2 - Problem identification). This guide contains a brief description of the design problems used in the training activity. We highlight that we let clear to developers that they were allowed to identify other types of design problems. Following we present the design problems used in the study (including the design problems provided in the training as well as other types of design problems found by the subjects), as well as the description used to create the guide.
+            A design problem is a part of the software design (a design fragment) that negatively impacts one or more quality attributes, such as comprehensibility, maintainability and performance <a href="#bar">(Bar, 1998)</a>;<a href="#ciupke">Ciupke, 1999</a>;<a href="#trifu">Trifu, 2007)</a>. In order to support developers during the identification of design problems, we provided them a guide characterizing different types of design problems at the beginning of the task (Activity 2 - Problem identification). This guide contains a brief description of the design problems used in the training activity. We highlight that we let clear to developers that they were allowed to identify other types of design problems. Following we present the design problems used in the study (including the design problems provided in the training as well as other types of design problems found by the subjects), as well as the description used to create the guide.
 
         </p>
         <ul>
@@ -398,6 +499,12 @@
                 <td class="tg-yzt1"><a href="download/guide.pdf" target="_blank">Guide with the Design Problems and Code Smells</a></td>
             </tr>
             <tr>
+                <td class="tg-yzt1"><a href="download/Pushpull-oracle.xlsx" target="_blank">Push Pull oracle</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/Workflow-oracle.xlsx" target="_blank">Workflow Manager description</a></td>
+            </tr>
+            <tr>
                 <td class="tg-yzt1"><a href="download/paper.pdf" target="_blank">Submitted Paper</a></td>
             </tr>
             
@@ -415,7 +522,7 @@
             <li id="twitter">Twitter. <i>Working at Twitter"</i>. Available at <a href="https://about.twitter.com/careers" target="_blank">https://about.twitter.com/careers</a></li>
             <li id="yahoo">Yahoo!. <i>Explore Career Opportunities"</i>. Available at <a href="https://careers.yahoo.com/us/buildyourcareer" target="_blank">https://careers.yahoo.com/us/buildyourcareer</a></li>
             <li id="fowler">M. Fowler. <i>Refactoring: Improving the Design of Existing Code.</i> Addison-Wesley, Boston, MA, USA, 1999.</li>
-			<li id="suryanarayana">G. Suryanarayana, G. Samarthyam, and T. Sharma. <i>Refactoring for Software Design Smells: Managing Technical Debt</i>. Morgan Kaufmann, 2014.</li>
+			
 		
     </div>
 
