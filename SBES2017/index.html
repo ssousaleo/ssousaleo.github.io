@@ -92,12 +92,18 @@
         </div>
 
         This web page presents the supplementary material of the paper <i>How do Software Developers Identify Design Problems? A Qualitative Study</i>. <br>
-        Following sections present the complementary information regarding the paper:
+        
+
+        <br>
+        Authors: Leonardo Sousa, Roberto Oliveira, Alessandro Garcia, Jaejoon Lee, Tayana Conte, Willian Oizumi, Rafael de Mello, Adriana Lopes, Natasha Valentim, Edson Oliveira, Carlos Lucena
+
+        <br><brS>
+        Following sections present the complementary information regarding the paper.
 
         <h3 class="page-header" id="abstract">Abstract</h3>
 
         <p class="text-justify">
-            Software systems have been discontinued or restructure due to the presence of design problems. However, identifying design problems is a challenging task. For instance, developers have to locate and analyze several elements to identify a single design problem. In order to help the developers with this task, we investigate how they perform it nowadays. We conducted a study in which we observed developers identifying design problems in systems that they have knowledge of the implementation and in systems they did not have knowledge. Our results indicate that developers face similar issues in both scenarios. They also combine different strategies to identify design problems. One of the strategies regards of the use of code smells. When they used the code smells, they identified design problems that the developers that have knowledge of the systems could not identify. Our results are relevant because they shed lights on the way the developers identify design problems. Thus, other studies can focus on improving the identification based on our findings.
+            When a software design decision has a negative impact on one or more quality attributes, we call it a design problem. For example, the Fat Interface problem indicates that an interface exposes non-cohesive services. Thus, clients and implementations of this interface may have to handle with services that they are not interested. A design problem such as this hampers the extensibility and maintainability of a software system. As illustrated by the example, a single design problem often affects several elements in the program. Despite its harmfulness, it is difficult to identify a design problem in a system. It is even more challenging to identify design problems when the source code is the only available artifact. In particular, no study has observed what strategy(ies) developers use in practice to identify design problems when the design documentation is unavailable. In order to address this gap, we conducted a qualitative analysis on how developers identify design problems in two different scenarios: when they are either <strong>familiar</strong> (Scenario 1) or <strong>unfamiliar</strong> (Scenario 2) with the analyzed systems. Developers familiar with the systems applied a diverse set of strategies during the identification of each design problem. Some strategies were frequently used to locate code elements for analysis, and other strategies were frequently used to confirm design problems in these elements. Developers unfamiliar with the systems relied only on the use of code smells along the task. Despite some differences among the subjects from both scenarios, we noticed that developers often search for multiple indicators during the identification of each design problem.
             </p>
 
     </div>
@@ -105,15 +111,15 @@
 
     <div class="container">
 
-        <h3 class="page-header" id="scenarios">Studied Scenarios and Participants</h3>
-        We conducted a qualitative study to observe how developers identify design problems in the source code. In order to conduct the study, we observed developers in two scenarios:
+        <h3 class="page-header" id="scenarios">Studied Scenarios and Subjects</h3>
+        We conducted a series of controlled experiments to observe how developers identify design problems in the source code. In order to conduct the study, we observed devlopers in two scenarios:
         
         
         <h4><u>Scenario 1: Developers that are familiar with the analyzed systems</u></h4>
         
         <p class="text-justify"> 
             The first scenario comprises developers allocated to identify design problems in systems with which they are familiar, i.e., systems that they implemented. In order to select developers
-            for this scenario, we searched for software companies that could provide us with: (i) developers, and (ii) systems where identification of design problems was currentlyseen as critical.
+            for this scenario, we searched for software companies that could provide us with: (i) developers, and (ii) systems in dierent stages of design degradation.
             We selected two software companies, in which provided us five software systems. Table I summarizes the characterization of the software companies.</p>
 
         <p>
@@ -219,19 +225,17 @@
         <p class="text-justify">
             The second scenario comprises developers assigned to identify design problems in systems with which they are unfamiliar, i.e., systems that they did not implement. 
             In order to select developers for this scenario, we recruited a set of developers, and we asked them to answer a questionnaire. The goal was to determine which of 
-            them were eligible for the study. The questionnaire covers information to characterize the developers about their education level and knowledge of Java programming 
-            and code smells. In order to select a developer for the study, he would need to meet some requirements.Thus, we analyzed their answers based on the following requirements:
+            them were eligible to be subject in the study. The questionnaire covers information to characterize the developers about their education level and knowledge of Java programming.
+            In order to select a subject for the study, he would need to meet some requirements.Thus, we analyzed their answers based on the following requirements:
 
             <ol>
 
                 <li>R1. Four years or more of experience with software development and maintenance. We have chosen four years because this is the average time used by companies such
-                    as Yahoo <a href="#yahoo">(Yahoo, 2016)</a> and Twitter <a href="#twitter">(Twitter, 2016)</a> to classify a developer as experienced.</li>
+                    as Yahoo <a href="#yahoo">(Yahoo, 2017)</a> and Twitter <a href="#twitter">(Twitter, 2017)</a> to classify a developer as experienced.</li>
 
-                <li>R2. No previous knowledge about S6 and S7.</li>
+                <li>R2. No previous knowledge about Pushu Pull (P6) and Workflow Manager (P7).</li>
 
-                <li>R3. At least basic knowledge about code smells.</li>
-
-                <li>R4. At least intermediary knowledge on Java programming. </li>
+                <li>R3. At least intermediary knowledge on Java programming. </li>
 
             </ol>
 
@@ -278,7 +282,7 @@
 
         <br>
         <p class="text-justify">
-            We selected two systems from the <a href="http://oodt.apache.org/" target="_blank">Apache OODT</a> project (Push Pull and Workflow Manager), and we asked developers of Group 2 to identify design problems in these systems. We selected these systems because they have a well-defined set of design problems identified by developers who actually implemented the systems. We gave them a document containing: (i) a brief description of Push Pull (S6) and Workflow Manager (S7), and (ii) a very high level description of their design blueprint. We gave them these documents because when they have to maintain unfamiliar systems, they need to have some minimal information about the systems to be maintained. We used the same document provided in the OODT project. Document with the description of both systems can be downloaded at <a href="download/oodtdoc.zip">here</a>. A full description of the Push Pull and Working Manager as well as other OODT systems can be downloaded at <a href="http://oodt.apache.org/site_docs/oodt/index.html" target="_blank">OODT website</a>.</br>
+            We selected two systems from the <a href="http://oodt.apache.org/" target="_blank">Apache OODT</a> project (Push Pull and Workflow Manager), and we asked subjects of Scenario 2 to identify design problems in these systems. We selected these systems because they have a well-defined set of design problems identified by developers who actually implemented the systems. We gave them a document containing: (i) a brief description of Push Pull (S6) and Workflow Manager (S7), and (ii) a very high level description of their design blueprint. We gave them these documents because when they have to maintain unfamiliar systems, they need to have some minimal information about the systems to be maintained. We used the same document provided in the OODT project. Document with the description of both systems can be downloaded at <a href="download/oodtdoc.zip">here</a>. A full description of the Push Pull and Working Manager as well as other OODT systems can be downloaded at <a href="http://oodt.apache.org/site_docs/oodt/index.html" target="_blank">OODT website</a>.</br>
         </p>
     </div>
 
@@ -295,32 +299,37 @@
         <h4><u>Design Problems</u></h4>
 
         <p class="text-justify">
-            A design problem is a part of the software design (a design fragment) that negatively impacts one or more quality attributes, such as comprehensibility, maintainability and performance <a href="#bar">(Bar, 1998)</a>;<a href="#ciupke">Ciupke, 1999</a>;<a href="suryanarayana">Suryanarayana 2014</a>;<a href="#trifu">Trifu, 2007)</a>. In order to support developers during the identification of design problems, we provide them a guide characterizing different types of design problems at the beginning of the task (Activity 2 - Problems identification). This guide contains a brief description of the design problems used in our study. We highlight that we let clear to developers that they were allowed to identify other types of design problems. Following we present the design problems used in the study, as well as the description used to create the guide.
+            A design problem is a part of the software design (a design fragment) that negatively impacts one or more quality attributes, such as comprehensibility, maintainability and performance <a href="#bar">(Bar, 1998)</a>;<a href="#ciupke">Ciupke, 1999</a>;<a href="suryanarayana">Suryanarayana 2014</a>;<a href="#trifu">Trifu, 2007)</a>. In order to support developers during the identification of design problems, we provided them a guide characterizing different types of design problems at the beginning of the task (Activity 2 - Problem identification). This guide contains a brief description of the design problems used in the training activity. We highlight that we let clear to developers that they were allowed to identify other types of design problems. Following we present the design problems used in the study (including the design problems provided in the training as well as other types of design problems found by the subjects), as well as the description used to create the guide.
 
         </p>
         <ul>
-            <li><strong>Ambiguous Interface:</strong> Interface of a design component that offers only a general, ambiguous entry-point that provides non-cohesive services, thereby complicating the clients' logic.</li>
+            <li><strong>Ambiguous Interface (AMI):</strong> Interface of a design component that offers only a general, ambiguous entry-point that provides non-cohesive services, thereby complicating the clients' logic.</li>
 
-            <li><strong>Component Overload:</strong> Design components that fulfill too many responsibilities.</li>
+            <li><strong>Cyclic Dependency (CCD):</strong> Two or more design components that directly or indirectly depend on each other.</li>
 
-            <li><strong>Cyclic Dependency:</strong> Two or more design components that directly or indirectly depend on each other.</li>
+            <li><strong>Component Overload (CCO):</strong> Design components that fulfill too many responsibilities.</li>
 
-            <li><strong>Delegating Abstraction:</strong> An abstraction that exists only for passing messages from one abstraction to another.</li>
+            <li><strong>Component Overload (CCP):</strong> Design components that fulfill too many responsibilities.</li>
 
-            <li><strong>Fat Interface:</strong> Interface that is overloaded with many clients accessing it. That is, an interface with "too many clients".</li>
+            <li><strong>Delegating Abstraction (DLA):</strong> An abstraction that exists only for passing messages from one abstraction to another.</li>
 
-            <li><strong>Scattered Concern:</strong> Multiple components that are responsible for realizing a crosscutting concern.</li>
+            <li><strong>Fat Interface (FTI):</strong> Interface that is overloaded with many clients accessing it. That is, an interface with "too many clients".</li>
 
-            <li><strong>Unused Abstraction:</strong> Design abstraction that is either unreachable or  never used in the system.</li>
+            <li><strong>Incomplete Abstraction (ICA):</strong> when an element does not support a responsibility completely in their enclosing component.
 
-            <li><strong>Unwanted Dependency:</strong> Dependency that violates an intended design rule.</li>
+            <li><strong>Misplaced Concern (MPC):</strong> element that implements a concern (e.g. functionality), which is not the predominant one of their enclosing component
+
+            <li><strong>Unwanted Dependency (UWD):</strong> Dependency that violates an intended design rule.</li>
+
+            <li><strong>Scattered Concern (STC):</strong> Multiple components that are responsible for realizing a crosscutting concern.</li>
+
 
         </ul>
 
         <h4><u>Code Smells</u></h4>
 
         <p class="text-justify">
-            A code smell is a structure in the implementation of the program that possibly indicates a design problem <a href="#fowler">(Fowler, 1999)</a>. In this study, we have focus on 15 types of code smells. We present the definition of the code smells following:
+            A code smell is a structure in the implementation of the program that possibly indicates a design problem <a href="#fowler">(Fowler, 1999)</a>. In this study, the subjects received a list of code smells affecting the systems. The list comprises a set of 15 types of code smells. We present the definition of the code smells following:
 
         </p>
 
@@ -363,7 +372,7 @@
         <h3 class="page-header" id="download">Download</h3>
 
         <p class="text-justify">
-            Following we present the main artifacts used in the study. For privacy reasons, we do not provide examples of the videos recorded in the environment, neither the audio transcription
+            Following we present the main artifacts used in the study. For privacy reasons, we do not provide examples of the videos recorded in the environment, the audio transcription neither the elements affected by design problems.
         </p>
 
         <table class="tg">
