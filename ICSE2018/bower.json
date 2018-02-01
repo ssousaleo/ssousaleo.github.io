@@ -1,0 +1,26 @@
+{
+  "name": "icse-2018-data-sousa-et-al",
+  "version": "0.1.0",
+  "authors": [
+    "Leonardo da Silva Sousa <ssousaleo@gmail.com>"
+  ],
+  "description": "Complementary material of the paper entitled: Identifying Design Problems in the Source Code: A Grounded Theory",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "design problems",
+    "grounded theory",
+    "software design",
+    "symptoms"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
