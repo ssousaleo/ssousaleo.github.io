@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development on Leonardo da Silva Sousa</title>
+    <link>https://ssousaleo.github.io/tags/development/</link>
+    <description>Recent content in development on Leonardo da Silva Sousa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 28 Oct 2018 00:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://ssousaleo.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leveraging Gamification and Social Networks for Improving Prevention and Control of Zika</title>
+      <link>https://ssousaleo.github.io/project/vazazika-project/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0300</pubDate>
+      
+      <guid>https://ssousaleo.github.io/project/vazazika-project/</guid>
+      <description>Brazilian population has not responded well to the prevention programs to combat arboviral diseases, such as Zika and Dengue. Concerns with such diseases has led an overwhelming number of people to increasingly share online strategic information, including the discovery of mosquito breeding sites in public locations. Term social sensors refers to the online population that is motivated to contribute relevant information on social media channels. Recent increasing use of smartphones triggered the growing use of social networks even in poorer communities.</description>
+    </item>
+    
+    <item>
+      <title>A Software Infrastructure for Promoting Efficient Entomological Monitoring of Dengue Fever</title>
+      <link>https://ssousaleo.github.io/project/vazadengue-project/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0300</pubDate>
+      
+      <guid>https://ssousaleo.github.io/project/vazadengue-project/</guid>
+      <description>Dengue is an endemic problem in many areas where public health services assistance is inefficient, and sometimes it is not even there. The Brazilian public health system cannot meet the demands of these areas due to the scarcity of resources available and the number of risk areas that requires monitoring. To make the matters worse, it is very difficult to identify and control dengue outbreaks in their initial stages. Therefore, it needs to notify focus of dengue mosquito in order to make it easier preventing dengue epidemic and to take the best actions.</description>
+    </item>
+    
+  </channel>
+</rss>
