@@ -13,12 +13,22 @@
     
     
     <item>
-      <title>On the identification of design problems in stinky code: experiences and tool support</title>
+      <title>On the Identification of Design Problems in Stinky Code: Experiences and Tool Support</title>
       <link>https://ssousaleo.github.io/publication/journal-willian-2018/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 -0300</pubDate>
       
       <guid>https://ssousaleo.github.io/publication/journal-willian-2018/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Distinguished Paper Award</title>
+      <link>https://ssousaleo.github.io/post/sbcars-award/</link>
+      <pubDate>Mon, 18 Sep 2017 00:00:00 -0300</pubDate>
+      
+      <guid>https://ssousaleo.github.io/post/sbcars-award/</guid>
+      <description>Award received for a co-authored SBCARS paper regarding how developers can effectively find design problems when reflecting upon stinky code. The Brazilian Symposium on Software Components, Architectures, and Reuse (SBCARS) is promoted by the Brazilian Computer Society (SBC) and attracts researchers, students, and practitioners interested in a broad range of software engineering topics, including software product lines, component-based development, architectures, and reuse.
+Paper: Revealing design problems in stinky code: a mixed-method study.</description>
     </item>
     
     <item>

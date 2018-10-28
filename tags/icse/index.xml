@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>icse on Leonardo da Silva Sousa</title>
+    <link>https://ssousaleo.github.io/tags/icse/</link>
+    <description>Recent content in icse on Leonardo da Silva Sousa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://ssousaleo.github.io/tags/icse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ACM SIGSOFT Distinguished Paper Award</title>
+      <link>https://ssousaleo.github.io/post/icse-award/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 -0300</pubDate>
+      
+      <guid>https://ssousaleo.github.io/post/icse-award/</guid>
+      <description>Award received for an authored ICSE paper regarding a theory on the identification of design problems in the source code. ICSE is the world&amp;rsquo;s main conference in the field of software engineering. In 40 years of ICSE this was the second time that a paper from Brazil receives such distinction.
+Paper: Identifying Design Problems in the Source Code: A Grounded Theory.</description>
+    </item>
+    
+  </channel>
+</rss>
