@@ -23,6 +23,18 @@
     </item>
     
     <item>
+      <title>ReSoM: Restructuring Software in Multi-language</title>
+      <link>https://ssousaleo.github.io/project/resom-project/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0300</pubDate>
+      
+      <guid>https://ssousaleo.github.io/project/resom-project/</guid>
+      <description>&lt;p&gt;ReSoM: Rejuvenescimento de Software Multi-Linguagem - Maintenance and evolution are frequent talks in the software development. As the system is modified, architectural problems are either introduced or amplified, resulting in the decrease of the software quality. Given this scenario, the following research question addresses the main goals of this project: How to support the developers to solve architectural problems in the source code? This question leads to identification of a set of code smells that are indicators of architectural problems in the systems developed in one or more programming language. Thus, new strategies will be proposed to improve the current detectors of code smell that affect the architecture. In addition, we will propose techniques that support the synthesis and prioritization of groups of code smells that are potentially responsible for architectural problems. Moreover, we will also propose and implement heuristics to support the validation and removal of code smells in software systems.&lt;/p&gt;
+
+&lt;p&gt;Research Project, 2016 – 2017&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ACM SIGSOFT Distinguished Paper Award</title>
       <link>https://ssousaleo.github.io/post/icse-award/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 -0300</pubDate>

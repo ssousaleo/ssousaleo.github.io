@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 28 Oct 2018 00:00:00 -0300</lastBuildDate>
     
 	<atom:link href="https://ssousaleo.github.io/tags/design-problems/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ReSoM: Restructuring Software in Multi-language</title>
+      <link>https://ssousaleo.github.io/project/resom-project/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0300</pubDate>
+      
+      <guid>https://ssousaleo.github.io/project/resom-project/</guid>
+      <description>ReSoM: Rejuvenescimento de Software Multi-Linguagem - Maintenance and evolution are frequent talks in the software development. As the system is modified, architectural problems are either introduced or amplified, resulting in the decrease of the software quality. Given this scenario, the following research question addresses the main goals of this project: How to support the developers to solve architectural problems in the source code? This question leads to identification of a set of code smells that are indicators of architectural problems in the systems developed in one or more programming language.</description>
+    </item>
     
     <item>
       <title>ACM SIGSOFT Distinguished Paper Award</title>

@@ -12,6 +12,14 @@
     
     <url>
     
+      <loc>https://ssousaleo.github.io/project/resom-project/</loc>
+      <lastmod>2018-10-28T00:00:00-03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://ssousaleo.github.io/post/icse-award/</loc>
       <lastmod>2018-10-28T00:00:00-03:00</lastmod>
     </url>
@@ -216,6 +224,15 @@
     
     <url>
     
+      <loc>https://ssousaleo.github.io/tags/architecture/</loc>
+      <lastmod>2018-10-28T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://ssousaleo.github.io/tags/award/</loc>
       <lastmod>2018-10-28T00:00:00-03:00</lastmod>
       <priority>0</priority>
@@ -226,7 +243,7 @@
     <url>
     
       <loc>https://ssousaleo.github.io/tags/code-smells/</loc>
-      <lastmod>2018-05-01T00:00:00-03:00</lastmod>
+      <lastmod>2018-10-28T00:00:00-03:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -271,6 +288,15 @@
     <url>
     
       <loc>https://ssousaleo.github.io/tags/icse/</loc>
+      <lastmod>2018-10-28T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://ssousaleo.github.io/tags/research/</loc>
       <lastmod>2018-10-28T00:00:00-03:00</lastmod>
       <priority>0</priority>
     </url>
