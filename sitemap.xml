@@ -20,6 +20,14 @@
     
     <url>
     
+      <loc>https://ssousaleo.github.io/publication/smc-2018/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://ssousaleo.github.io/post/icse-award/</loc>
       <lastmod>2018-10-28T00:00:00-03:00</lastmod>
     </url>
@@ -109,7 +117,7 @@
     <url>
     
       <loc>https://ssousaleo.github.io/publication_types/1/</loc>
-      <lastmod>2018-05-01T00:00:00-03:00</lastmod>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -171,7 +179,7 @@
     <url>
     
       <loc>https://ssousaleo.github.io/publication_types/</loc>
-      <lastmod>2018-05-01T00:00:00-03:00</lastmod>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -251,6 +259,15 @@
     
     <url>
     
+      <loc>https://ssousaleo.github.io/tags/computational-efficiency/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://ssousaleo.github.io/tags/dengue/</loc>
       <lastmod>2018-10-28T00:00:00-03:00</lastmod>
       <priority>0</priority>
@@ -278,6 +295,15 @@
     
     <url>
     
+      <loc>https://ssousaleo.github.io/tags/fault-detection/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://ssousaleo.github.io/tags/gamification/</loc>
       <lastmod>2018-10-28T00:00:00-03:00</lastmod>
       <priority>0</priority>
@@ -289,6 +315,42 @@
     
       <loc>https://ssousaleo.github.io/tags/icse/</loc>
       <lastmod>2018-10-28T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://ssousaleo.github.io/tags/mutation-cost/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://ssousaleo.github.io/tags/mutation-operators/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://ssousaleo.github.io/tags/mutation-testing/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://ssousaleo.github.io/tags/program-testing/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -314,6 +376,42 @@
     
     <url>
     
+      <loc>https://ssousaleo.github.io/tags/semantic-size/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://ssousaleo.github.io/tags/semantics/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://ssousaleo.github.io/tags/software/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://ssousaleo.github.io/tags/software-testing/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://ssousaleo.github.io/tags/symptoms/</loc>
       <lastmod>2018-05-01T00:00:00-03:00</lastmod>
       <priority>0</priority>
@@ -323,8 +421,26 @@
     
     <url>
     
+      <loc>https://ssousaleo.github.io/tags/syntactics/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://ssousaleo.github.io/tags/theory/</loc>
       <lastmod>2018-10-28T00:00:00-03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://ssousaleo.github.io/tags/tools/</loc>
+      <lastmod>2018-10-07T00:00:00-03:00</lastmod>
       <priority>0</priority>
     </url>
     
