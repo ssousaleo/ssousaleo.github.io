@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://ssousaleo.github.io/tags/fault-detection/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Reducing the Cost of Mutation Testing Using the Semantic Size of Mutant</title>
       <link>https://ssousaleo.github.io/publication/smc-2018/</link>
-      <pubDate>Sun, 07 Oct 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/publication/smc-2018/</guid>
       <description></description>

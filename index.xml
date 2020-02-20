@@ -1,43 +1,175 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Leonardo da Silva Sousa on Leonardo da Silva Sousa</title>
+    <title>Leonardo da Silva Sousa</title>
     <link>https://ssousaleo.github.io/</link>
-    <description>Recent content in Leonardo da Silva Sousa on Leonardo da Silva Sousa</description>
+    <description>Recent content on Leonardo da Silva Sousa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 14 Oct 2017 23:00:00 -0300</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://ssousaleo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://ssousaleo.github.io/home/hero_carousel/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/hero_carousel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>https://ssousaleo.github.io/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/hero/</guid>
+      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ssousaleo.github.io/home/about/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/about/</guid>
+      <description>Biography Leonardo da Silva Sousa is an Assistant Teaching Professor in the Department of Electrical and Computer Engineering (ECE) at Carnegie Mellon University’s (CMU) Silicon Valley location. He received the Ph.D. in Computer Science from the Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio). He received the MSc in Computer Science from Universidade Federal de Goiás and the BS in Computer Science from the Universidade Federal de Mato Grosso. His main research interests are: Code Smells, Design Problems, Refactoring, Software Architecture, Software Testing and Empirical Software Engineering.</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://ssousaleo.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://ssousaleo.github.io/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://ssousaleo.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://ssousaleo.github.io/home/skills/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>https://ssousaleo.github.io/home/talks_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/talks_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://ssousaleo.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://ssousaleo.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://ssousaleo.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Verification &amp; Testing</title>
+      <link>https://ssousaleo.github.io/home/teaching/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/teaching/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://ssousaleo.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://ssousaleo.github.io/home/search/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://ssousaleo.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://ssousaleo.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Leveraging Gamification and Social Networks for Improving Prevention and Control of Zika</title>
       <link>https://ssousaleo.github.io/project/vazazika-project/</link>
-      <pubDate>Sun, 28 Oct 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/project/vazazika-project/</guid>
-      <description>&lt;p&gt;Brazilian population has not responded well to the prevention programs to combat arboviral diseases, such as Zika and Dengue. Concerns with such diseases has led an overwhelming number of people to increasingly share online strategic information, including the discovery of mosquito breeding sites in public locations. Term social sensors refers to the online population that is motivated to contribute relevant information on social media channels. Recent increasing use of smartphones triggered the growing use of social networks even in poorer communities. Strategic information in these locations are harder to gather for health agents. The health agencies in Northeast should explore the collective knowledge generated by people to improve prevention and combat actions. Although the Brazilian Health System requires that health agents report each Zika case, it takes several days to process and publish this information. The project will develop a platform for promoting virtual communities to prevent and combat Zika. Its core is the VazaZika application. VazaZika will use geolocation and gamification technologies for stimulating citizens to denounce and confirm Aedes breeding sites, and for updating users, in real time, about actions taken by health agents.&lt;/p&gt;
-
-&lt;p&gt;Research Project, 2017 – Current&lt;/p&gt;
-</description>
+      <description>Brazilian population has not responded well to the prevention programs to combat arboviral diseases, such as Zika and Dengue. Concerns with such diseases has led an overwhelming number of people to increasingly share online strategic information, including the discovery of mosquito breeding sites in public locations. Term social sensors refers to the online population that is motivated to contribute relevant information on social media channels. Recent increasing use of smartphones triggered the growing use of social networks even in poorer communities.</description>
     </item>
     
     <item>
       <title>ReSoM: Restructuring Software in Multi-language</title>
       <link>https://ssousaleo.github.io/project/resom-project/</link>
-      <pubDate>Sun, 28 Oct 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/project/resom-project/</guid>
-      <description>&lt;p&gt;ReSoM: Rejuvenescimento de Software Multi-Linguagem - Maintenance and evolution are frequent talks in the software development. As the system is modified, architectural problems are either introduced or amplified, resulting in the decrease of the software quality. Given this scenario, the following research question addresses the main goals of this project: How to support the developers to solve architectural problems in the source code? This question leads to identification of a set of code smells that are indicators of architectural problems in the systems developed in one or more programming language. Thus, new strategies will be proposed to improve the current detectors of code smell that affect the architecture. In addition, we will propose techniques that support the synthesis and prioritization of groups of code smells that are potentially responsible for architectural problems. Moreover, we will also propose and implement heuristics to support the validation and removal of code smells in software systems.&lt;/p&gt;
-
-&lt;p&gt;Research Project, 2016 – 2017&lt;/p&gt;
-</description>
+      <description>ReSoM: Rejuvenescimento de Software Multi-Linguagem - Maintenance and evolution are frequent talks in the software development. As the system is modified, architectural problems are either introduced or amplified, resulting in the decrease of the software quality. Given this scenario, the following research question addresses the main goals of this project: How to support the developers to solve architectural problems in the source code? This question leads to identification of a set of code smells that are indicators of architectural problems in the systems developed in one or more programming language.</description>
     </item>
     
     <item>
       <title>Reducing the Cost of Mutation Testing Using the Semantic Size of Mutant</title>
       <link>https://ssousaleo.github.io/publication/smc-2018/</link>
-      <pubDate>Sun, 07 Oct 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/publication/smc-2018/</guid>
       <description></description>
@@ -46,19 +178,17 @@
     <item>
       <title>ACM SIGSOFT Distinguished Paper Award</title>
       <link>https://ssousaleo.github.io/post/icse-award/</link>
-      <pubDate>Sat, 02 Jun 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/post/icse-award/</guid>
-      <description>&lt;p&gt;Award received for an authored ICSE paper regarding a theory on the identification of design problems in the source code. ICSE is the world&amp;rsquo;s main conference in the field of software engineering. In 40 years of ICSE this was the second time that a paper from Brazil receives such distinction.&lt;/p&gt;
-
-&lt;p&gt;Paper: &lt;a href=&#34;http://doi.acm.org/10.1145/3180155.3180239&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Identifying Design Problems in the Source Code: A Grounded Theory&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Award received for an authored ICSE paper regarding a theory on the identification of design problems in the source code. ICSE is the world&amp;rsquo;s main conference in the field of software engineering. In 40 years of ICSE this was the second time that a paper from Brazil receives such distinction.
+Paper: Identifying Design Problems in the Source Code: A Grounded Theory.</description>
     </item>
     
     <item>
       <title>Identifying Design Problems in the Source Code: A Grounded Theory</title>
       <link>https://ssousaleo.github.io/publication/icse-theory/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/publication/icse-theory/</guid>
       <description></description>
@@ -67,7 +197,7 @@
     <item>
       <title>VazaDengue: An Information System for Preventing and Combating Mosquito-Borne Diseases with Social Networks</title>
       <link>https://ssousaleo.github.io/publication/journal-dengue/</link>
-      <pubDate>Sat, 21 Apr 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 21 Apr 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/publication/journal-dengue/</guid>
       <description></description>
@@ -76,7 +206,7 @@
     <item>
       <title>On the Identification of Design Problems in Stinky Code: Experiences and Tool Support</title>
       <link>https://ssousaleo.github.io/publication/journal-willian-2018/</link>
-      <pubDate>Wed, 21 Mar 2018 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/publication/journal-willian-2018/</guid>
       <description></description>
@@ -85,7 +215,7 @@
     <item>
       <title>How Do Software Developers Identify Design Problems?: A Qualitative Analysis</title>
       <link>https://ssousaleo.github.io/publication/sbes-2017/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/publication/sbes-2017/</guid>
       <description></description>
@@ -94,19 +224,17 @@
     <item>
       <title>Distinguished Paper Award</title>
       <link>https://ssousaleo.github.io/post/sbcars-award/</link>
-      <pubDate>Mon, 18 Sep 2017 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 18 Sep 2017 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/post/sbcars-award/</guid>
-      <description>&lt;p&gt;Award received for a co-authored SBCARS paper regarding how developers can effectively find design problems when reflecting upon stinky code. The Brazilian Symposium on Software Components, Architectures, and Reuse (&lt;a href=&#34;http://www.lia.ufc.br/~cbsoft2017/en/xi-sbcars/chamada-de-trabalhos/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;SBCARS&lt;/strong&gt;&lt;/a&gt;) is promoted by the Brazilian Computer Society (SBC) and attracts researchers, students, and practitioners interested in a broad range of software engineering topics, including software product lines, component-based development, architectures, and reuse.&lt;/p&gt;
-
-&lt;p&gt;Paper: &lt;a href=&#34;http://doi.acm.org/10.1145/3132498.3132514&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Revealing design problems in stinky code: a mixed-method study&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Award received for a co-authored SBCARS paper regarding how developers can effectively find design problems when reflecting upon stinky code. The Brazilian Symposium on Software Components, Architectures, and Reuse (SBCARS) is promoted by the Brazilian Computer Society (SBC) and attracts researchers, students, and practitioners interested in a broad range of software engineering topics, including software product lines, component-based development, architectures, and reuse.
+Paper: Revealing design problems in stinky code: a mixed-method study.</description>
     </item>
     
     <item>
       <title>Revealing design problems in stinky code: a mixed-method study</title>
       <link>https://ssousaleo.github.io/publication/sbcars-2017/</link>
-      <pubDate>Mon, 18 Sep 2017 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 18 Sep 2017 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/publication/sbcars-2017/</guid>
       <description></description>
@@ -115,13 +243,10 @@
     <item>
       <title>A Software Infrastructure for Promoting Efficient Entomological Monitoring of Dengue Fever</title>
       <link>https://ssousaleo.github.io/project/vazadengue-project/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/project/vazadengue-project/</guid>
-      <description>&lt;p&gt;Dengue is an endemic problem in many areas where public health services assistance is inefficient, and sometimes it is not even there. The Brazilian public health system cannot meet the demands of these areas due to the scarcity of resources available and the number of risk areas that requires monitoring. To make the matters worse, it is very difficult to identify and control dengue outbreaks in their initial stages. Therefore, it needs to notify focus of dengue mosquito in order to make it easier preventing dengue epidemic and to take the best actions. To assist the surveillance and detection of dengue mosquito and outbreaks, we propose an integrated platform for population to act as an etymological surveillance agent. The goal is to collect and transmit geo-referenced data, providing information to assist in entomological surveillance of dengue. To accomplish the aforementioned goal, we will developer (i) mobile applications to collect data, (ii) a web portal for centralizing data and (iii) we will mining social media to extract data and to monitor dengue outbreaks. The computational solution aims at gathering information on the reporting of the mosquito that transmits dengue. Allowing us to organize it and to plot it on maps. The point is to make it available to the government and the population.&lt;/p&gt;
-
-&lt;p&gt;Research Project, 2015 – 2016&lt;/p&gt;
-</description>
+      <description>Dengue is an endemic problem in many areas where public health services assistance is inefficient, and sometimes it is not even there. The Brazilian public health system cannot meet the demands of these areas due to the scarcity of resources available and the number of risk areas that requires monitoring. To make the matters worse, it is very difficult to identify and control dengue outbreaks in their initial stages. Therefore, it needs to notify focus of dengue mosquito in order to make it easier preventing dengue epidemic and to take the best actions.</description>
     </item>
     
   </channel>

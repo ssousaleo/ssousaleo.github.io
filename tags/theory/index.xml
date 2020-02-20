@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://ssousaleo.github.io/tags/theory/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>ACM SIGSOFT Distinguished Paper Award</title>
       <link>https://ssousaleo.github.io/post/icse-award/</link>
-      <pubDate>Sat, 02 Jun 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/post/icse-award/</guid>
       <description>Award received for an authored ICSE paper regarding a theory on the identification of design problems in the source code. ICSE is the world&amp;rsquo;s main conference in the field of software engineering. In 40 years of ICSE this was the second time that a paper from Brazil receives such distinction.
@@ -25,7 +25,7 @@ Paper: Identifying Design Problems in the Source Code: A Grounded Theory.</descr
     <item>
       <title>Identifying Design Problems in the Source Code: A Grounded Theory</title>
       <link>https://ssousaleo.github.io/publication/icse-theory/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 -0300</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/publication/icse-theory/</guid>
       <description></description>
@@ -34,7 +34,7 @@ Paper: Identifying Design Problems in the Source Code: A Grounded Theory.</descr
     <item>
       <title>On the Identification of Design Problems in Stinky Code: Experiences and Tool Support</title>
       <link>https://ssousaleo.github.io/publication/journal-willian-2018/</link>
-      <pubDate>Wed, 21 Mar 2018 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/publication/journal-willian-2018/</guid>
       <description></description>

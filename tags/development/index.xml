@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 28 Oct 2018 00:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 28 Oct 2018 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://ssousaleo.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Leveraging Gamification and Social Networks for Improving Prevention and Control of Zika</title>
       <link>https://ssousaleo.github.io/project/vazazika-project/</link>
-      <pubDate>Sun, 28 Oct 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/project/vazazika-project/</guid>
       <description>Brazilian population has not responded well to the prevention programs to combat arboviral diseases, such as Zika and Dengue. Concerns with such diseases has led an overwhelming number of people to increasingly share online strategic information, including the discovery of mosquito breeding sites in public locations. Term social sensors refers to the online population that is motivated to contribute relevant information on social media channels. Recent increasing use of smartphones triggered the growing use of social networks even in poorer communities.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>ReSoM: Restructuring Software in Multi-language</title>
       <link>https://ssousaleo.github.io/project/resom-project/</link>
-      <pubDate>Sun, 28 Oct 2018 00:00:00 -0300</pubDate>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/project/resom-project/</guid>
       <description>ReSoM: Rejuvenescimento de Software Multi-Linguagem - Maintenance and evolution are frequent talks in the software development. As the system is modified, architectural problems are either introduced or amplified, resulting in the decrease of the software quality. Given this scenario, the following research question addresses the main goals of this project: How to support the developers to solve architectural problems in the source code? This question leads to identification of a set of code smells that are indicators of architectural problems in the systems developed in one or more programming language.</description>
@@ -33,7 +33,7 @@
     <item>
       <title>A Software Infrastructure for Promoting Efficient Entomological Monitoring of Dengue Fever</title>
       <link>https://ssousaleo.github.io/project/vazadengue-project/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/project/vazadengue-project/</guid>
       <description>Dengue is an endemic problem in many areas where public health services assistance is inefficient, and sometimes it is not even there. The Brazilian public health system cannot meet the demands of these areas due to the scarcity of resources available and the number of risk areas that requires monitoring. To make the matters worse, it is very difficult to identify and control dengue outbreaks in their initial stages. Therefore, it needs to notify focus of dengue mosquito in order to make it easier preventing dengue epidemic and to take the best actions.</description>
