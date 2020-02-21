@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 14 Oct 2017 23:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://ssousaleo.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://ssousaleo.github.io/home/hero_carousel/</link>
-      <pubDate>Sat, 14 Oct 2017 23:00:00 -0300</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/hero_carousel/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Academic</title>
       <link>https://ssousaleo.github.io/home/hero/</link>
-      <pubDate>Sat, 14 Oct 2017 23:00:00 -0300</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/hero/</guid>
       <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
@@ -33,16 +33,16 @@
     <item>
       <title></title>
       <link>https://ssousaleo.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
       
       <guid>https://ssousaleo.github.io/home/about/</guid>
-      <description>Biography Leonardo da Silva Sousa is currently a research associate in the OPUS Research Group at Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio). He received the PhD in Computer Science from the PUC-Rio. He received the MSc in Computer Science from Universidade Federal de Goiás and the BS in Computer Science from the Universidade Federal de Mato Grosso. His main research interests are: Code Smells, Design Problems, Refactoring, Software Architecture, Software Testing and Empirical Software Engineering.</description>
+      <description>Biography Leonardo da Silva Sousa is an Assistant Teaching Professor in the Department of Electrical and Computer Engineering (ECE) at Carnegie Mellon University’s (CMU) Silicon Valley location. He received the Ph.D. in Computer Science from the Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio). He received the MSc in Computer Science from Universidade Federal de Goiás and the BS in Computer Science from the Universidade Federal de Mato Grosso. His main research interests are: Code Smells, Design Problems, Refactoring, Software Architecture, Software Testing and Empirical Software Engineering.</description>
     </item>
     
     <item>
       <title>Recent Posts</title>
       <link>https://ssousaleo.github.io/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/posts/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Selected Publications</title>
       <link>https://ssousaleo.github.io/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/publications_selected/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Skills</title>
       <link>https://ssousaleo.github.io/home/skills/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/skills/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>Selected Talks</title>
       <link>https://ssousaleo.github.io/home/talks_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/talks_selected/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://ssousaleo.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/talks/</guid>
       <description></description>
@@ -96,7 +96,7 @@
     <item>
       <title>Recent Publications</title>
       <link>https://ssousaleo.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/publications/</guid>
       <description></description>
@@ -105,16 +105,16 @@
     <item>
       <title>Projects</title>
       <link>https://ssousaleo.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Custom Section</title>
+      <title>Software Verification &amp; Testing</title>
       <link>https://ssousaleo.github.io/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
       
       <guid>https://ssousaleo.github.io/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
@@ -124,7 +124,7 @@ To remove this section, either delete content/home/teaching.md or edit the front
     <item>
       <title>Tags</title>
       <link>https://ssousaleo.github.io/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/tags/</guid>
       <description></description>
@@ -133,7 +133,7 @@ To remove this section, either delete content/home/teaching.md or edit the front
     <item>
       <title>Search</title>
       <link>https://ssousaleo.github.io/home/search/</link>
-      <pubDate>Mon, 23 Jul 2018 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/search/</guid>
       <description></description>
@@ -142,7 +142,7 @@ To remove this section, either delete content/home/teaching.md or edit the front
     <item>
       <title>Contact</title>
       <link>https://ssousaleo.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ssousaleo.github.io/home/contact/</guid>
       <description></description>
