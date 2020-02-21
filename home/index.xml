@@ -112,13 +112,12 @@
     </item>
     
     <item>
-      <title>Software Verification &amp; Testing</title>
+      <title>SV&amp;T</title>
       <link>https://ssousaleo.github.io/home/teaching/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
       
       <guid>https://ssousaleo.github.io/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+      <description>Verification and testing (VT) support software engineers and development teams in their endeavor to build dependable systems. These interrelated activities form the backbone of a high-quality software solution that performs its function as intended. VT is no longer considered an exclusively backend phase undertaken by a separate quality assurance unit, vulnerable to availability of discretionary resources near project end. Rather, VT is a cross-functional discipline applied throughout the software lifecycle from beginning to end.</description>
     </item>
     
     <item>
